@@ -6,7 +6,6 @@
 
 This five-person university project explored a UART-controlled FPGA peak-detection system. A command processor receives a request for a specified number of data samples. The data processor then requests 8-bit samples from a supplied data generator, tracks the maximum signed sample, and prepares a **seven-sample result window**: the three samples before the peak, the peak itself, and the three samples after it. The design also produces the peak's position in BCD format.
 
-The repository preserves coursework development material. It is **not presented as a production-ready or independently re-verified hardware design**.
 
 ## System architecture
 
