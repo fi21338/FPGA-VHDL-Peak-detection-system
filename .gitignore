@@ -1,0 +1,17 @@
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+*.lnk
+# Vivado generated directories
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+# Reports, generated binaries and temporary files
+*.bit
+*.edn
+*.jou
+*.log
