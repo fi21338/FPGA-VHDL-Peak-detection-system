@@ -94,8 +94,3 @@ The status screenshot demonstrates that a run reported bitstream generation; it 
 - **Design topics:** ASM/FSM control, BCD conversion, signed comparisons, sample buffering, two-phase signalling, UART interfacing
 - **Verification topics:** testbench stimulus, expected vs actual results, waveform inspection, integration debugging
 
-## Attribution and publication
-
-This project was completed by a five-person university team. Individual responsibilities are described above; some UART, generator, testbench, constraint, and reference-design materials were provided as coursework scaffolding. No claim of independent authorship of those components is made.
-
-**Before publishing the source or supplied materials publicly, check the university's sharing rules and obtain permission from the teammates whose work is included.** Personal details, peer assessments, teaching assets, and generated vendor binaries are best excluded from a public portfolio unless their publication is explicitly permitted.
