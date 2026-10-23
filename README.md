@@ -7,20 +7,6 @@
 This five-person university project explored a UART-controlled FPGA peak-detection system. A command processor receives a request for a specified number of data samples. The data processor then requests 8-bit samples from a supplied data generator, tracks the maximum signed sample, and prepares a **seven-sample result window**: the three samples before the peak, the peak itself, and the three samples after it. The design also produces the peak's position in BCD format.
 
 
-## System architecture
-
-```mermaid
-flowchart LR
-    PC["PC terminal"] <--> UART["UART RX/TX"]
-    UART <--> CP["Command processor"]
-    CP <--> DP["Data processor: dataConsume"]
-    DP -- "sample request / ctrlOut" --> GEN["Data generator"]
-    GEN -- "response / ctrlIn + 8-bit sample" --> DP
-    DP -- "results + peak index + done" --> CP
-```
-
-The generator, UART framework, and some test/reference material were supplied for the coursework. The student team developed the assigned data-processing and command-processing work and integrated it with the supplied components.
-
 ### User-facing command behaviour (team-level)
 
 The command processor was designed to support a **`P` command**, reporting the peak value and its position in decimal, and an **`L` command**, displaying the seven-sample peak window in hexadecimal. These command-handling functions were principally developed by other members of the group; my work interfaced with the data processor used to supply their results.
