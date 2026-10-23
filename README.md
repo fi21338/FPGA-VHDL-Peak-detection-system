@@ -30,7 +30,7 @@ My primary assigned work was the **requested-count decoder and the associated da
 
 For example, a BCD input of `0001 0010 0011` represents the decimal digits **1, 2, 3**. The decoding expression computes `(1 × 100) + (2 × 10) + 3 = 123` requested samples.
 
-I also collaborated with Derek on wider data-processor integration and debugging, including interactions among the acquisition controller, peak-detection logic, and two-phase handshaking. Derek's principal assigned work covered peak detection, output/index formatting, and additional state and handshake logic. The three other team members worked on the command processor. This was a **shared group implementation**, not a solo project.
+I also collaborated on the wider data-processor integration and debugging, including interactions among the acquisition controller, peak-detection logic, and two-phase handshaking. This was a **shared group implementation**, not a solo project.
 
 ## Key source files
 
