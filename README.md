@@ -55,9 +55,8 @@ The team used Vivado and supplied testbench infrastructure for simulation and wa
 
 If I revisit the design, priorities include checking handshake/control timing, fully synchronous state updates, boundary peak positions, repeated maximum values, and entirely negative signed input sequences.
 
-## Figures from the original coursework report
+## Figures for the Data Processor section
 
-These are **historical images from the team's coursework report**, not newly produced simulations or proof that every functional requirement passed. Please check sharing permission before publishing them.
 
 **Data-processor architecture:**
 
